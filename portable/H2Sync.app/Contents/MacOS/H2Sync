@@ -1,0 +1,4 @@
+#!/bin/sh
+# Finder starts this; the real launcher is shared with Linux.
+LOG="${TMPDIR:-/tmp}/h2sync.log"
+exec /bin/sh "$(dirname "$0")/../../../app/launch.sh" "$@" >>"$LOG" 2>&1
