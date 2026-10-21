@@ -67,3 +67,7 @@ python3 build_portable.py --to /Volumes/H2 # also copies it onto a card
 ```
 
 Copying onto a card keeps the card's `H2Sync/settings` folder.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
